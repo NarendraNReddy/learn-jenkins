@@ -43,9 +43,7 @@ pipeline {
                 echo "Choice: ${params.CHOICE}"
                 echo "Password: ${params.PASSWORD}"
                 echo "triggered test again"
-                fasdf
-                error 'some failure'
-                
+                error 'some failure'              
                
             }
         }   
